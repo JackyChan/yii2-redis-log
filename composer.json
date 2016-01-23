@@ -8,7 +8,6 @@
             "email": "jacky.hf@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
 	"require": {
 		"yiisoft/yii2": ">=2.0.4"
 	},
