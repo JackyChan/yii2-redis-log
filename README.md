@@ -14,7 +14,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist jackychan/yii2-redis-log
+php composer.phar require --prefer-dist jacky/yii2-redis-log
 ```
 
 or add
