@@ -43,7 +43,7 @@ class RedisTarget extends Target
 	public function export() {
 		foreach ($this->messages as $message) {
 			$text = $this->formatMessage($message);
-			$this->redis->executeCommand('RPUSH', $this->key, $text);
+			$this->redis->executeCommand('RPUSH', [$this->key, $text]);
 		}
 	}
 }
